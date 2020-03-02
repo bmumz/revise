@@ -1,111 +1,140 @@
-body{ 
-    background-color: #DBE4E2;
-    color: #000000;
-    margin: 0;
-    padding: 0;
-  }
+body {
+  background-color: #dbe4e2;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
 
 /*NAV*/
 
-.my-background{
-    background-image: url('file:///Users/Brandi/Documents/blob4.svg');
-    background-repeat: no-repeat;
-    background-position: left top;
+.my-background {
+  background-image: url("file:///Users/Brandi/Documents/blob4.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 .bg-company-blue {
-    background-color: #00303F;
+  background-color: #00303f;
 }
 
 .nav-brand {
-    font-size: 2rem;
-    font-family: 'Yeseva One', cursive;
-}
-.navbar-brand-start{
-    color: #99F1E0;
+  font-size: 2rem;
+  font-family: "Yeseva One", cursive;
 }
 
-.navbar-brand-end{
-    color: #3AC8AC;
+.navbar-brand-start {
+  color: #99f1e0;
 }
 
- .blockquote {
-      color: #EEE;
-      font-size: 1.5rem;
-      font-weight: bold;
+.navbar-brand-end {
+  color: #3ac8ac;
+}
 
+.blockquote {
+  color: #eee;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
-  }
+.blob {
+  position: absolute;
+}
 
-  .blob {
-    position: absolute;
-  }
-
-  .stat {
-    margin-top: 6rem;
+.stat {
+  margin-top: 6rem;
 }
 
 /* REVIEWS */
 
 .reviews {
-    margin-top: 6rem;
+  margin-top: 6rem;
 }
 
 .review {
-    border: .5px solid #3AC8AC;
+  border: 0.5px solid #3ac8ac;
 }
 
 /* JUMBOTRON */
 .jumbotron {
-    margin-top: 40px;
-    text-align: center;
-    background-color: #00303F;
-    color: #EEE;
+  margin-top: 40px;
+  text-align: center;
+  background-color: #00303f;
+  color: #eee;
 }
 
 .partnership {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 /* */
 .about {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
-
 /* TEAM */
+
+.about-us {
+  font-family: "Yeseva One", cursive;
+  color: #3ac8ac;
+  width: 65%;
+}
+
 .team {
-    margin: auto;
-    border: 1px solid #3AC8AC;
+  margin: auto;
+  border: 1px solid #3ac8ac;
 }
 
 .about-me {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .about-row {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .card-body {
-    margin-top: 1rem;
-    padding: auto;
+  margin-top: 1rem;
+  padding: auto;
 }
 
 .rounded-circle {
-    width: 150px;
-    height: 150px;
-    margin-top: 30px;
-    margin-left: 75px;
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: 75px;
+}
+
+.main-form {
+  color: #fff;
+  margin: auto;
+  padding: 20px;
+  background-color: #00303f;
+  width: 50%;
+  border: 20px;
+}
+
+.form-group {
+  margin: auto;
+  padding: 20px;
+}
+
+.form-container {
+  margin: auto;
+  padding: 40px;
+}
+
+.updates {
+  font-family: "Yeseva One", cursive;
+  color: #3ac8ac;
 }
 
 @media only screen and (max-width: 770px) {
-    .my-background .blockquote {
-        padding-right: 80px;
-    }
+  .my-background .blockquote {
+    padding-right: 80px;
+  }
 }
