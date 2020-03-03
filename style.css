@@ -80,13 +80,15 @@ h3 {
 .about-us {
   font-family: "Yeseva One", cursive;
   color: #3ac8ac;
-  width: 65%;
   text-align: center;
 }
 
 .team {
   margin: auto;
   border: 1px solid #3ac8ac;
+  width: 300px;
+  height: 600px;
+  text-align: center;
 }
 
 .about-me {
