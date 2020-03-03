@@ -20,6 +20,7 @@ body {
 .nav-brand {
   font-size: 2rem;
   font-family: "Yeseva One", cursive;
+  text-decoration: none;
 }
 
 .navbar-brand-start {
@@ -66,7 +67,6 @@ body {
   font-weight: normal;
 }
 
-/* */
 .about {
   margin-top: 40px;
 }
@@ -81,6 +81,7 @@ h3 {
   font-family: "Yeseva One", cursive;
   color: #3ac8ac;
   width: 65%;
+  text-align: center;
 }
 
 .team {
@@ -133,8 +134,18 @@ h3 {
   color: #3ac8ac;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 900px) {
   .my-background .blockquote {
-    padding-right: 80px;
+    margin-top: 0;
+    padding-right: 40px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .my-background .blockquote {
+    margin-top: -50px;
+    padding-right: 10px;
+    font-size: 15px;
   }
 }
